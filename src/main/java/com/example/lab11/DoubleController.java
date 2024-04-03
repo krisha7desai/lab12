@@ -5,9 +5,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class GreetingController {
+public class DoubleController {
     @GetMapping("/double")
-    public int greeting(@RequestParam(value = "number") int number) {
+    public int multiplier(@RequestParam(value = "number") int number) {
         return number*2;
+
     }
 }
