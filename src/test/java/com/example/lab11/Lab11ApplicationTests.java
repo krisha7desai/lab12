@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class GreetingControllerTest {
 
     @LocalServerPort
-    int port;
+   private int port;
 
     @Autowired
     private TestRestTemplate restTemplate;
