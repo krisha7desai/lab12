@@ -28,6 +28,6 @@ class GreetingControllerTest {
         Integer result = restTemplate.getForObject(url, Integer.class);
 
         // Assert
-        assertThat(result).isEqualTo(numberToDouble * 2);
+        assertThat(result).isEqualTo(10);
     }
 }
